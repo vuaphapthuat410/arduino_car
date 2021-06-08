@@ -98,7 +98,7 @@ void darkLineFollower (byte inR1, byte inR2, byte inL1, byte inL2, byte sen1, by
 {
   //Hàm điều khiển robot bám line màu tối
   //inR1, inR2 và inL1, inL2 là các chân tín hiệu lần lượt điều khiển động cơ di chuyển bên phải và trái
-  //sen1 đến sen4 là chân nhận tín hiệu từ cảm biến hồng ngoại
+  //sen1 đến sen3 là chân nhận tín hiệu từ cảm biến hồng ngoại
   //Bây giờ thì lập trình thôi
   switch (deviationDarkLine3Sensor (sen1, sen2, sen3))
   {
