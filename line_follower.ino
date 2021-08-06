@@ -254,7 +254,6 @@ boolean IFSensor (byte PinNumb)
 
 int deviationDarkLine3Sensor (int PinNumb1, int PinNumb2, int PinNumb3)
 {
-  
   int left = 0; //biến kiểm tra lệch trái
   int right = 0; // biến kiểm tra lệch phải
   left = IFSensor (PinNumb1)+IFSensor (PinNumb2); //kiểm tra mấy cảm biến trái ở trong màu đen
